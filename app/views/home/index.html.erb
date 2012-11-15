@@ -1,3 +1,5 @@
-<%= image_tag "gmail-login.png" , :size => "160x100", :class=>"img-polaroid",:style=>"padding:48px"%>
-<%#= image_tag "facebook-login.png" , :class=>"img-circle"%>
-<%= image_tag "twitter-login.png" , :size => "160x100", :class=>"img-polaroid",:style=>"padding:48px"%>
+<% content_for :nav_bar do %>
+	<%if user_signed_in? %>
+		<%= link_to('Logout', destroy_user_session_path, :method => :delete, :class => "btn pull-right") %> 
+	<%end%>
+<%end%>
