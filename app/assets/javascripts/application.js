@@ -16,9 +16,9 @@
 //= require_tree .
 
 
-    $(document).ready(function() {
-    $('.carousel').carousel({
-    interval: 1000
-    })
-    });
+    // $(document).ready(function() {
+    // $('.carousel').carousel({
+    // interval: 1000
+    // })
+    // });
 
