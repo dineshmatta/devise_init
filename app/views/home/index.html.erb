@@ -1,5 +1,5 @@
 <% content_for :nav_bar do %>
 	<%if user_signed_in? %>
-		<%= link_to('Logout', destroy_user_session_path, :method => :delete, :class => "btn pull-right") %> 
+		<%= link_to('Logout', destroy_user_session_path, :method => :delete, :class => "btn btn-warning pull-left") %> 
 	<%end%>
 <%end%>
