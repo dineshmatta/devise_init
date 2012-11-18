@@ -34,14 +34,14 @@ body {
     /* Downsize the brand/project name a bit */
 .navbar .brand {
 	padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: bold;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
     /* Navbar links: increase padding for taller navbar */
 .navbar .nav > li > a {
-  padding: 15px 20px;
+  padding: 15px 20px;                
 }
 
     /* Offset the responsive button for proper vertical alignment */
@@ -56,14 +56,19 @@ body {
 .new_user input {
   background-color: #98BF21;
 }
+
 .new_user {
-    background-color: #FAA732;
+    background-color: #FF8C00;
     border: 1px solid #E5E5E5;
     border-radius: 25px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     margin: 0 auto 20px;
     max-width: 300px;
     padding: 19px 29px 29px;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: #ffffff;
 }
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
@@ -141,5 +146,6 @@ body {
 // Example:
 // @linkColor: #ff0000;
 @navbarHeight: 50px;
-@navbarText: #000000;
-@dropdownBackground: #FAA732;
+@navbarText: #FFFFFF;
+@dropdownBackground: #FF8C00;
+@navbarLinkBackgroundActive: #ffffff;
